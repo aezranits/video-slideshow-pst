@@ -56,12 +56,12 @@ const VideoPlayer = () => {
   };
 
   const handleVideoChange = (event) => {
-    const file = event.target.files[0];
-    if (file) {
-      const videoUrl = URL.createObjectURL(file);
-      videoRef.current.src = videoUrl;
-      // Here you can add logic to upload the file to a server
-    }
+    // const file = event.target.files[0];
+    // if (file) {
+    //   const videoUrl = URL.createObjectURL(file);
+    //   videoRef.current.src = videoUrl;
+    //   // Here you can add logic to upload the file to a server
+    // }
   };
 
   const requestFullscreen = (element) => {
